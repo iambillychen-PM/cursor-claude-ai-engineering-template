@@ -1,0 +1,6 @@
+# 架構原則
+- Controllers 只負責路由與驗證，邏輯全丟給 Services
+- Services 絕對不要直接碰 Database Models
+- Repository 封裝所有資料存取
+- 嚴守分層邊界（絕對禁止跨層呼叫）
+- API routes 統一放在 app/api/ 並遵循現有模式
