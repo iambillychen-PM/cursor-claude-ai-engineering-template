@@ -1,4 +1,4 @@
-# 架構原則
+# 架構原則 (框架規範)
 - Controllers 只負責路由與驗證，邏輯全丟給 Services
 - Services 絕對不要直接碰 Database Models
 - Repository 封裝所有資料存取
