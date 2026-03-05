@@ -1,0 +1,4 @@
+# 常用指令（Agent 參考用）
+- npm run build：建置專案
+- npm run typecheck：型別檢查
+- npm run test：跑測試（優先單檔測試加速）
