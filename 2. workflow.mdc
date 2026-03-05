@@ -1,5 +1,5 @@
 ---
-description: "標準工作流程"
+description: "標準工作流程 + Context 清理機制"
 globs: "**/*"
 alwaysApply: true
 ---
@@ -11,4 +11,8 @@ alwaysApply: true
 5. 跑完整測試
 6. 才 commit
 
-卡住規則：嘗試 3 次失敗 → 立即停下來反思根本問題（絕不硬幹）
+**卡住規則**：嘗試 3 次失敗 → 立即停下來反思根本問題（絕不硬幹）
+
+**Context 清理機制**（2026 最佳實踐）：
+- 對話超過 15 輪或明顯變慢時 → 開新聊天（New Chat with Context）
+- 避免錯誤歷史污染 AI 輸入
