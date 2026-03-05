@@ -1,0 +1,9 @@
+---
+description: "程式碼風格規範"
+globs: "**/*.ts,**/*.tsx,**/*.js"
+alwaysApply: false
+---
+# 程式碼風格
+- 使用 ES Modules
+- 函數 < 20 行
+- 優先 functional programming
